@@ -1,0 +1,15 @@
+temp
+
+*.txt
+*.gz
+*.zip
+log/*.log
+log/*.log.[0-9]
+assets/photoshop/
+!assets/videos/tour_*.mp4
+assets/videos/
+
+# Would not affect log/archive/access.log because *
+# is wildcard just for characters and not for 
+# slashes so if we have folders nested inside 
+# folders , then need to be careful about that.
